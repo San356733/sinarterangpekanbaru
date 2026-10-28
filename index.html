@@ -89,17 +89,15 @@
 
         <!-- 01 —— PROFIL PERUSAHAAN -->
         <section id="profil" class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start pt-16 border-t border-black/10">
-            <div class="lg:col-span-4 reveal-up">
+            <div class="lg:col-span-4 reveal-up space-y-6">
                 <h2 class="font-mono text-xs font-medium tracking-[0.2em] uppercase text-gray-400">01 / Profil</h2>
-                                        <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kualitas Premium" class="hoverable w-full h-52 object-cover hover:scale-105 transition-transform duration-1000">
-
+                <div class="overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kualitas Premium" class="hoverable w-full h-52 object-cover hover:scale-105 transition-transform duration-1000">
+                </div>
             </div>
             
             <div class="lg:col-span-8 reveal-up delay-100">
                 <h3 class="font-display text-3xl md:text-5xl font-light mb-8 leading-[1.2] tracking-tight">Mendefinisikan ulang ruang Anda dengan kemewahan dan ketahanan yang tak lekang oleh waktu.</h3>
-                
-                <!-- Foto Profil tepat di bawah judul -->
-                
                 
                 <p class="text-base md:text-lg text-gray-500 leading-relaxed max-w-2xl font-light">
                     Toko Sinar Terang adalah destinasi utama di Pekanbaru untuk koleksi keramik dan granit berkualitas tinggi. Kami hadir untuk memenuhi kebutuhan arsitektur dan desain interior Anda, menyediakan produk dengan standar estetika tertinggi dan durabilitas maksimal tanpa mengorbankan fungsi.
@@ -109,32 +107,23 @@
 
         <!-- 02 —— NILAI KAMI -->
         <section id="nilai" class="grid grid-cols-1 lg:grid-cols-12 gap-16 pt-16 border-t border-black/10">
-            <div class="lg:col-span-4 reveal-up">
+            <div class="lg:col-span-4 reveal-up space-y-6">
                 <h2 class="font-mono text-xs font-medium tracking-[0.2em] uppercase text-gray-400">02 / Nilai Kami</h2>
-                                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Desain Eksklusif" class="hoverable w-full h-52 object-cover hover:scale-105 transition-transform duration-1000">
-
+                <div class="overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Desain Eksklusif" class="hoverable w-full h-52 object-cover hover:scale-105 transition-transform duration-1000">
+                </div>
             </div>
             <div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-16">
                 <!-- Nilai 1 -->
                 <div class="reveal-up delay-100 group">
                     <div class="font-mono text-xs text-gray-400 mb-4">001</div>
                     <h4 class="font-display text-2xl font-light mb-6 uppercase tracking-tight">Kualitas Premium</h4>
-                    
-                    <!-- Foto tepat di bawah judul -->
-                    <div class="overflow-hidden mb-6">
-                    </div>
-                    
                     <p class="text-gray-500 font-light leading-relaxed">Material pilihan dengan tingkat presisi pemotongan yang tinggi, menghasilkan sambungan lantai yang sangat rapat dan nyaris tak terlihat.</p>
                 </div>
                 <!-- Nilai 2 -->
                 <div class="reveal-up delay-200 group">
                     <div class="font-mono text-xs text-gray-400 mb-4">002</div>
                     <h4 class="font-display text-2xl font-light mb-6 uppercase tracking-tight">Desain Eksklusif</h4>
-                    
-                    <!-- Foto tepat di bawah judul -->
-                    <div class="overflow-hidden mb-6">
-                    </div>
-                    
                     <p class="text-gray-500 font-light leading-relaxed">Menyediakan beragam motif terkini, mulai dari kemewahan marmer klasik, gaya industrial beton, hingga serat kayu natural yang elegan.</p>
                 </div>
             </div>
@@ -153,7 +142,7 @@
                 </div>
             </div>
 
-            <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+            <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16 items-start">
             </div>
         </section>
 
@@ -164,7 +153,7 @@
                 <div class="mt-12 space-y-6 text-gray-500 font-light">
                     <p class="text-lg text-brand-900 uppercase font-display tracking-wide">Toko Sinar Terang Pekanbaru</p>
                     <p class="leading-relaxed">Jl. HR. Soebrantas No.271<br>Tuah Karya, Tuah Madani<br>Kota Pekanbaru, Riau 28293</p>
-                    <p class="pt-4 text-sm font-mono tracking-widest text-brand-900">+62 813-6568-0305</p>
+                    <p class="pt-4 text-sm font-mono tracking-widest text-brand-900">+62 838-2396-7108</p>
                     <div class="pt-4">
                         <a href="https://maps.app.goo.gl/SZ1rKxJTwuxtANpW9" target="_blank" rel="noopener noreferrer" class="hoverable inline-block text-xs font-mono uppercase tracking-[0.1em] border-b border-black/20 pb-1 hover:border-black transition-colors">Menuju Lokasi &rarr;</a>
                     </div>
@@ -189,11 +178,13 @@
 
     <!-- Product Modal (Quick View) -->
     <div id="productModal" class="fixed inset-0 z-[80] flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-500 bg-brand-900/95 backdrop-blur-md p-6">
-        <div class="bg-brand-50 w-full max-w-4xl flex flex-col md:flex-row relative transform scale-95 transition-transform duration-500" id="modalContent">
+        <div class="bg-brand-50 w-full max-w-4xl flex flex-col md:flex-row relative transform scale-95 transition-transform duration-500 max-h-[90vh] overflow-y-auto" id="modalContent">
             <button onclick="closeModal()" class="hoverable absolute top-4 right-6 text-brand-900 text-3xl font-light hover:rotate-90 transition-transform duration-300 z-10">&times;</button>
             
-            <div class="w-full md:w-1/2 bg-gray-200 aspect-square">
-                <img id="modalImg" src="" class="w-full h-full object-cover">
+            <div class="w-full md:w-1/2 bg-gray-200 flex items-center justify-center p-6">
+                <div id="modalImgContainer" class="w-full max-h-[60vh] flex items-center justify-center overflow-hidden bg-white shadow-sm">
+                    <img id="modalImg" src="" class="w-full h-full object-contain">
+                </div>
             </div>
             <div class="w-full md:w-1/2 p-10 md:p-14 flex flex-col justify-center">
                 <p id="modalMotif" class="font-mono text-xs text-gray-400 mb-3 uppercase tracking-[0.2em]"></p>
@@ -206,8 +197,8 @@
         </div>
     </div>
 
-    <!-- Tombol WhatsApp Elite -->
-    <a href="https://wa.me/6281365680305?text=Halo%20Toko%20SinarTerang,%20saya%20ingin%20bertanya%20seputar%20produk." target="_blank" rel="noopener noreferrer" class="hoverable fixed bottom-8 right-8 w-14 h-14 bg-brand-900 text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-white hover:text-brand-900 border border-transparent hover:border-brand-900 transition-all duration-500 z-50">
+    <!-- Tombol WhatsApp Floating -->
+    <a href="https://wa.me/6283823967108?text=Halo%20Toko%20Sinar%20Terang,%20saya%20ingin%20bertanya%20seputar%20produk." target="_blank" rel="noopener noreferrer" class="hoverable fixed bottom-8 right-8 w-14 h-14 bg-brand-900 text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-white hover:text-brand-900 border border-transparent hover:border-brand-900 transition-all duration-500 z-50">
         <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.277-.926-3.541 0-4.132 3.363-7.492 7.49-7.492 4.128 0 7.488 3.361 7.488 7.492s-3.36 7.492-7.488 7.492z"/></svg>
     </a>
 
@@ -244,19 +235,35 @@
             { id: 7, name: "Toscana Stone Diorit Grey", size: "60x60", motif: "Grey Texture", price: "Hubungi Admin", img: "7.jpeg" }
         ];
 
+        // Hitung proporsi rasio aspek dari dimensi ukuran (misal 80x80 -> 1/1, 60x120 -> 1/2)
+        function getAspectStyle(sizeStr) {
+            if (!sizeStr) return 'aspect-ratio: 1 / 1;';
+            const parts = sizeStr.toLowerCase().split('x');
+            if (parts.length === 2) {
+                const w = parseFloat(parts[0]);
+                const h = parseFloat(parts[1]);
+                if (!isNaN(w) && !isNaN(h) && h > 0) {
+                    return `aspect-ratio: ${w} / ${h};`;
+                }
+            }
+            return 'aspect-ratio: 1 / 1;';
+        }
+
         const grid = document.getElementById('productGrid');
         const search = document.getElementById('searchInput');
 
         const modal = document.getElementById('productModal');
         const modalContent = document.getElementById('modalContent');
+        const modalImgContainer = document.getElementById('modalImgContainer');
         
         function openModal(id) {
             const p = products.find(prod => prod.id === id);
             if(p) {
                 document.getElementById('modalImg').src = p.img;
+                modalImgContainer.style.cssText = getAspectStyle(p.size);
                 document.getElementById('modalName').innerText = p.name;
                 document.getElementById('modalMotif').innerText = p.motif + ' / ' + p.size;
-                const waLink = `https://wa.me/6281365680305?text=Halo,%20saya%20tertarik%20dengan%20produk%20${encodeURIComponent(p.name)}%20ukuran%20${p.size}.%20Apakah%20stoknya%20tersedia?`;
+                const waLink = `https://wa.me/6283823967108?text=Halo,%20saya%20tertarik%20dengan%20produk%20${encodeURIComponent(p.name)}%20ukuran%20${p.size}.%20Apakah%20stoknya%20tersedia?`;
                 document.getElementById('modalWa').href = waLink;
 
                 modal.classList.remove('opacity-0', 'pointer-events-none');
@@ -294,10 +301,11 @@
             
             data.forEach((p, index) => {
                 const delayClass = `delay-${(index % 3 + 1) * 100}`;
+                const aspectStyle = getAspectStyle(p.size);
                 
                 const card = `
                     <div class="group relative overflow-hidden reveal-up ${delayClass} cursor-none" onclick="openModal(${p.id})">
-                        <div class="aspect-square overflow-hidden bg-gray-100 flex items-center justify-center mb-6 relative">
+                        <div class="w-full overflow-hidden bg-gray-100 flex items-center justify-center mb-6 relative border border-black/5" style="${aspectStyle}">
                             <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 duration-500"></div>
                             <img src="${p.img}" alt="${p.name}" class="hoverable w-full h-full object-cover group-hover:scale-105 transition-all duration-1000" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x600?text=Foto+Tersedia+Luring';">
                         </div>
